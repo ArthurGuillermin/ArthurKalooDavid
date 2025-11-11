@@ -1275,3 +1275,4 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.11-03.30.23:919][390]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.11.11-03.30.23:919][390]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.11-03.30.23:919][390]AssetCheck: /Game/Maps/MapDeBase Validation de la ressource
+[2025.11.11-03.30.52:853][823]LogDerivedDataCache: C:/Users/Arthur Guillermin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
