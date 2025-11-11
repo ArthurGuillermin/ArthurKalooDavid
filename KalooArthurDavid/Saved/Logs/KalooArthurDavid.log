@@ -1163,3 +1163,43 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.11-03.45.04:449][ 42]LogSlate: Window 'Paramètres du projet' being destroyed
 [2025.11.11-03.45.04:455][ 42]LogSlate: Window 'Paramètres du projet' being destroyed
 [2025.11.11-03.46.39:213][500]LogDerivedDataCache: C:/Users/Arthur Guillermin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: ================================================
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Total job queries 420, among them cache hits 27 (6.43%), DDC hits 323 (76.90%), Duplicates 68 (16.19%)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Tracking 325 distinct input hashes that result in 234 distinct outputs (72.00%)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: RAM used: 3,25 MiB of 2,40 GiB budget. Usage: 0.13%
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Shaders Compiled: 2
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.08 s
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Job execution time: average 0.82 s, max 0.92 s
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Job life time (pending + execution): average 0.90 s, max 1.00
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Shader code size: total 13,988 KiB, numShaders 2, average 6,994 KiB, min 6,379 KiB, max 7,609 KiB
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.00 s
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Average processing rate: 2.00 jobs/sec
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Total thread time: 1,174 s
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Total thread preprocess time: 7,922 s
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Percentage time preprocessing: 674.56%
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Effective parallelization: 1.17 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.146489
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.69 sec, max 0.69 sec, min 0.69 sec)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 58.50% of total time (compiled    1 times, average 0.69 sec, max 0.69 sec, min 0.69 sec)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 41.50% of total time (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display:                                                 FLumenCardPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: === Material stats ===
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Materials Translated:    141
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Material Translation Only: 0.05 s (49%)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (3%)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: Material Cache Hits: 40 (28%)
+[2025.11.11-03.47.48:332][707]LogShaderCompilers: Display: ================================================
