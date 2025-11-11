@@ -1142,3 +1142,6 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.11-03.45.27:380][  8]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -877650155
 [2025.11.11-03.45.27:380][  8]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4.112463, Update Interval: 318.153625
 [2025.11.11-03.47.20:404][348]LogDerivedDataCache: C:/Users/bobso/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.11-03.50.45:741][963]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 322.807587
+[2025.11.11-03.50.46:741][966]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.11-03.50.46:741][966]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 323.474243, Update Interval: 316.148560
