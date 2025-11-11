@@ -1276,3 +1276,147 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.11-03.30.23:919][390]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.11-03.30.23:919][390]AssetCheck: /Game/Maps/MapDeBase Validation de la ressource
 [2025.11.11-03.30.52:853][823]LogDerivedDataCache: C:/Users/Arthur Guillermin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.11-03.32.02:735][ 32]LogShaderCompilers: Display: ================================================
+[2025.11.11-03.32.02:735][ 32]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.11-03.32.02:735][ 32]LogShaderCompilers: Display: Total job queries 394, among them cache hits 21 (5.33%), DDC hits 303 (76.90%), Duplicates 69 (17.51%)
+[2025.11.11-03.32.02:735][ 32]LogShaderCompilers: Display: Tracking 304 distinct input hashes that result in 217 distinct outputs (71.38%)
+[2025.11.11-03.32.02:735][ 32]LogShaderCompilers: Display: RAM used: 3,13 MiB of 2,40 GiB budget. Usage: 0.13%
+[2025.11.11-03.32.02:735][ 32]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.11-03.32.02:735][ 32]LogShaderCompilers: Display: Shaders Compiled: 1
+[2025.11.11-03.32.02:735][ 32]LogShaderCompilers: Display: Jobs assigned 1, completed 1 (100%)
+[2025.11.11-03.32.02:735][ 32]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.05 s
+[2025.11.11-03.32.02:735][ 32]LogShaderCompilers: Display: Job execution time: average 1.92 s, max 1.92 s
+[2025.11.11-03.32.02:735][ 32]LogShaderCompilers: Display: Job life time (pending + execution): average 1.97 s, max 1.97
+[2025.11.11-03.32.02:735][ 32]LogShaderCompilers: Display: Shader code size: total 13,762 KiB, numShaders 1, average 13,762 KiB, min 13,762 KiB, max 13,762 KiB
+[2025.11.11-03.32.02:735][ 32]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.97 s
+[2025.11.11-03.32.02:735][ 32]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.11.11-03.32.02:735][ 32]LogShaderCompilers: Display: Jobs were issued in 1 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display: Average processing rate: 0.51 jobs/sec
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display: Total thread time: 1,669 s
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display: Total thread preprocess time: 6,652 s
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display: Percentage time preprocessing: 398.65%
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display: Effective parallelization: 0.85 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.105711
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 1.67 sec, max 1.67 sec, min 1.67 sec)
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 100.00% of total time (compiled    1 times, average 1.67 sec, max 1.67 sec, min 1.67 sec)
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display: === Material stats ===
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display: Materials Translated:    141
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display: Material Translation Only: 0.05 s (46%)
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display: Material Cache Hits: 22 (16%)
+[2025.11.11-03.32.02:736][ 32]LogShaderCompilers: Display: ================================================
+[2025.11.11-03.32.07:473][243]LogFab: Display: Logging in using persist
+[2025.11.11-03.32.07:678][243]LogWebBrowser: Loaded CEF3 version 90.6.7.2358 from C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/ThirdParty/CEF3/Win64/
+[2025.11.11-03.32.07:781][243]LogCEFBrowser: CEF GPU acceleration enabled
+[2025.11.11-03.32.08:617][245]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 7b1...f70 Access[Expires: 2025.11.11-05.32.08 Remaining: 7200.15] Refresh[Expires: 2026-05-10T03:32:08.154Z Remaining: 15552000.15] State: Valid
+[2025.11.11-03.32.08:804][246]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Received FUserAuthToken
+[2025.11.11-03.32.08:947][255]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Login complete: EOS_Success
+[2025.11.11-03.32.08:947][255]LogFab: Display: User logged in
+[2025.11.11-03.32.08:947][255]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
+[2025.11.11-03.32.09:165][266]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-GXC8LoJFrE6vZNcZY-YYqg-jYyuy2XXGEq-3DN7oVqVAA]
+[2025.11.11-03.34.51:744][128]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 354.109436
+[2025.11.11-03.34.51:832][134]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.11-03.34.51:832][134]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 354.183228, Update Interval: 318.728607
+[2025.11.11-03.35.05:151][ 86]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.11.11-03.35.07:269][197]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube
+[2025.11.11-03.35.07:269][197]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube
+[2025.11.11-03.35.07:270][197]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube as actor: StaticMeshActor /Game/Maps/Sublevels/Arthur.Arthur:PersistentLevel.StaticMeshActor_0
+[2025.11.11-03.35.07:924][251]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.11.11-03.35.07:926][251]LogEditorActor: Deleted 0 Actors (0.022 secs)
+[2025.11.11-03.35.07:932][251]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube
+[2025.11.11-03.35.07:932][251]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube
+[2025.11.11-03.35.07:934][251]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube as actor: StaticMeshActor /Game/Maps/Sublevels/Arthur.Arthur:PersistentLevel.StaticMeshActor_1
+[2025.11.11-03.35.10:323][422]LogNavigation: Warning: FNavigationOctree::AddNode: Empty bounds, ignoring StaticMeshComponent /Game/Maps/Sublevels/Arthur.Arthur:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0.
+[2025.11.11-03.35.13:321][604]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.11-03.35.13:373][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sublevels/Arthur" FILE="E:/ArthurKalooDavid/KalooArthurDavid/Content/Maps/Sublevels/Arthur.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.11.11-03.35.13:389][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.11.11-03.35.13:423][604]LogSavePackage: Moving output files for package: /Game/Maps/Sublevels/Arthur
+[2025.11.11-03.35.13:424][604]LogSavePackage: Moving 'E:/ArthurKalooDavid/KalooArthurDavid/Saved/ArthurED8479644FA1FD4C5246BAA3661F2D01.tmp' to 'E:/ArthurKalooDavid/KalooArthurDavid/Content/Maps/Sublevels/Arthur.umap'
+[2025.11.11-03.35.13:428][604]LogFileHelpers: Saving map 'Arthur' took 0.055
+[2025.11.11-03.35.13:435][604]LogFileHelpers: InternalPromptForCheckoutAndSave took 113.753 ms (total: 848.014 ms)
+[2025.11.11-03.35.13:465][604]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.11-03.35.13:465][604]LogContentValidation: Enabled validators:
+[2025.11.11-03.35.13:465][604]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.11-03.35.13:465][604]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.11-03.35.13:465][604]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.11-03.35.13:465][604]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.11-03.35.13:465][604]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.11-03.35.13:465][604]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.11-03.35.13:465][604]AssetCheck: /Game/Maps/Sublevels/Arthur Validation de la ressource
+[2025.11.11-03.37.41:600][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.11.11-03.37.41:873][ 77]LogStall: Shutdown...
+[2025.11.11-03.37.41:873][ 77]LogStall: Shutdown complete.
+[2025.11.11-03.37.42:050][ 77]LogSlate: Window 'Fab' being destroyed
+[2025.11.11-03.37.42:052][ 77]LogSlate: Window 'KalooArthurDavid - Unreal Editor' being destroyed
+[2025.11.11-03.37.42:152][ 77]Cmd: QUIT_EDITOR
+[2025.11.11-03.37.42:152][ 78]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.11.11-03.37.42:173][ 78]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.11.11-03.37.42:174][ 78]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.11.11-03.37.42:174][ 78]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.11.11-03.37.42:174][ 78]LogWorld: UWorld::CleanupWorld for MapDeBase, bSessionEnded=true, bCleanupResources=true
+[2025.11.11-03.37.42:174][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.11-03.37.42:174][ 78]LogWorld: UWorld::CleanupWorld for Arthur, bSessionEnded=true, bCleanupResources=true
+[2025.11.11-03.37.42:174][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.11-03.37.42:174][ 78]LogWorld: UWorld::CleanupWorld for David, bSessionEnded=true, bCleanupResources=true
+[2025.11.11-03.37.42:174][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.11-03.37.42:174][ 78]LogWorld: UWorld::CleanupWorld for Kaloo, bSessionEnded=true, bCleanupResources=true
+[2025.11.11-03.37.42:174][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.11-03.37.42:216][ 78]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.11.11-03.37.42:216][ 78]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.11.11-03.37.42:217][ 78]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.11.11-03.37.42:220][ 78]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.11.11-03.37.42:220][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.11-03.37.42:221][ 78]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.11.11-03.37.42:221][ 78]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.11.11-03.37.42:223][ 78]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.11.11-03.37.42:224][ 78]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.11.11-03.37.42:224][ 78]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.11.11-03.37.42:224][ 78]LogAudio: Display: Audio Device unregistered from world 'MapDeBase'.
+[2025.11.11-03.37.42:224][ 78]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.11.11-03.37.42:225][ 78]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.11.11-03.37.42:227][ 78]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.11.11-03.37.42:235][ 78]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.11.11-03.37.42:235][ 78]LogAudio: Display: Audio Device Manager Shutdown
+[2025.11.11-03.37.42:237][ 78]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.11.11-03.37.42:242][ 78]LogExit: Preparing to exit.
+[2025.11.11-03.37.42:308][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.11.11-03.37.43:055][ 78]LogEditorDataStorage: Deinitializing
+[2025.11.11-03.37.43:180][ 78]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.11.11-03.37.43:208][ 78]LogExit: Editor shut down
+[2025.11.11-03.37.43:210][ 78]LogExit: Transaction tracking system shut down
+[2025.11.11-03.37.43:213][ 78]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2025.11.11-03.37.43:213][ 78]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2025.11.11-03.37.43:213][ 78]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2025.11.11-03.37.43:292][ 78]LogExit: Object subsystem successfully closed.
+[2025.11.11-03.37.43:342][ 78]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.11.11-03.37.43:561][ 78]LogWebBrowser: Deleting browser for Url=https://www.fab.com/plugins/ue5/search?q=scientist.
+[2025.11.11-03.37.43:563][ 78]LogMemoryProfiler: Shutdown
+[2025.11.11-03.37.43:563][ 78]LogNetworkingProfiler: Shutdown
+[2025.11.11-03.37.43:563][ 78]LoadingProfiler: Shutdown
+[2025.11.11-03.37.43:563][ 78]LogTimingProfiler: Shutdown
+[2025.11.11-03.37.43:564][ 78]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.11.11-03.37.43:564][ 78]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.11.11-03.37.43:924][ 78]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.11.11-03.37.43:925][ 78]LogNFORDenoise: NFORDenoise function shutting down
+[2025.11.11-03.37.43:970][ 78]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.11.11-03.37.43:970][ 78]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E2BAB5F-4AA0-9568-9996-40B9270A5FDD%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=b3a33dd248067a4091c399ab278b8267%7C7b1d299c84094f20a42091124d70df70%7C659b2174-b294-43ca-b058-7a214b5c164a&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.11.11-03.37.44:518][ 78]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.11.11-03.37.44:518][ 78]RenderDocPlugin: plugin has been unloaded.
+[2025.11.11-03.37.44:518][ 78]LogXGEController: Cleaning working directory: C:/Users/Arthur Guillermin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.11.11-03.37.44:522][ 78]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.11.11-03.37.44:522][ 78]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.11.11-03.37.44:522][ 78]LogPakFile: Destroying PakPlatformFile
+[2025.11.11-03.37.44:823][ 78]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.11.11-03.37.44:838][ 78]LogExit: Exiting.
+[2025.11.11-03.37.44:895][ 78]Log file closed, 11/10/25 22:37:44
