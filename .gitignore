@@ -73,6 +73,10 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Saved\AutoScreenshot.png
+Saved\Config\WindowsEditor\EditorPerProjectUserSettings.ini
+Intermediate\CachedAssetRegistry_0.bin
+Saved\SourceControl\UncontrolledChangelists.json
 
 # Unreal Engine temporary files
 Saved/
